@@ -72,9 +72,6 @@ nav h2 {
     background-color: #3c4cff;
     transition: 0.3s;
 }
-
-/* Break */
-
 .middle {
     color: white;
     display: flex;
@@ -208,3 +205,198 @@ nav h2 {
   .demo:hover {
     opacity: 1;
   }
+  /* Memberships */
+  
+.membership {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  position: relative;
+  flex-direction: row;
+  margin-top: 100px;
+  /* top: 100px; */
+  
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: hsla(0, 0%, 100%, 0.05);
+  width: 310px;
+  height: 490px;
+  border-radius: 6px;
+  padding: 7px;
+  margin: 15px;
+}
+.desc h3 {
+  color: rgb(1, 175, 102);
+}
+.desc span {
+  font-size: 16px;
+  color: white;
+}
+.desc h1 {
+  font-size: 46px;
+  color: white;
+}
+.card a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: white;
+  border: 1px solid rgb(88, 88, 88);
+  height: 55px;
+  border-radius: 6px;
+}
+.btn {
+  margin-top: 10px;
+  width: 250px;
+  transition: 0.3s;
+}
+.btn:hover {
+  background-color: rgb(87, 87, 87);
+  transition: 0.3s;
+  transform: scale(1.1);
+  border-radius: 6px;
+}
+/*  */
+.head {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.head p {
+  background-color: darkblue;
+  display: flex;
+  width: 110px;
+  height: 30px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 15px;
+  color: white;
+  font-size: 13px;
+}
+.desc {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+}
+.desc h3 {
+  color: darkblue;
+}
+.desc span {
+  font-size: 16px;
+  color: white;
+}
+.desc h1 {
+  font-size: 46px;
+  color: white;
+}
+.price {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 2px;
+}
+.price p {
+  position: relative;
+  top: 10px;
+  color:rgb(122, 122, 122) ;
+}
+.info {
+  color:rgb(122, 122, 122) ;
+  padding: 10px 5px;
+  position: relative;
+  bottom: 9px;
+}
+.btn {
+  margin-top: 5px;
+  background-color: darkblue;
+  border-radius: 6px;
+  width: 250px;
+}
+.btn:hover {
+  background-color: rgb(0, 0, 101);
+  transition: 0.3s;
+  transform: scale(1.1);
+  border-radius: 6px;
+}
+#coupon {
+  position: relative;
+  top: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(122, 122, 122);
+  font-size: 9px;
+}
+#coupon p {
+  position: relative;
+  bottom: 10px;
+}
+.head2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.head2 p {
+  background-color: hsla(0, 0%, 100%, 0.05);
+  display: flex;
+  width: 110px;
+  height: 30px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 15px;
+  color: white;
+  font-size: 13px;
+}
+.desc2 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+}
+.desc2 h3 {
+  color: #ffffff;
+}
+.desc2 span {
+  font-size: 16px;
+  color: white;
+  font-weight: bold;
+}
+.desc2 h1 {
+  font-size: 46px;
+  color: white;
+}
+.price2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 2px;
+}
+.price2 p {
+  position: relative;
+  top: 10px;
+  color:rgb(122, 122, 122) ;
+}
+.info2 {
+  color:rgb(122, 122, 122) ;
+}
+.btn2 {
+  margin-top: 5px;
+  border-radius: 6px;
+  width: 250px;
+  background-color: black;
+}
+.btn2:hover {
+  background-color: rgb(87, 87, 87);
+  transition: 0.3s;
+  transform: scale(1.1);
+  border-radius: 6px;
+}
