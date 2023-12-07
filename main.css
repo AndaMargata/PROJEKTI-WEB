@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background-color: #12141d;
+    font-family: inter;
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+nav img {
+    width: 40px;
+    height: 42px;
+}
+.top {
+    width: 180px;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+nav h2 {
+    color: white;
+}
+.buttons {
+    /* background-color: red; */
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    width: 240px;
+    height: 80px;
+}
+#In {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 48px;
+    width: 100px;
+    border-radius: 6px;
+    background-color: hsla(0, 0%, 100%, 0.05);
+    text-decoration: none;
+    transition: 0.3s;
+}
+#In:hover {
+    background-color: rgb(61, 61, 61);
+    transition: 0.3s;
+}
+#Up {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 48px;
+    width: 100px;
+    border-radius: 6px;
+    background-color: darkblue;
+    text-decoration: none;
+    transition: 0.3s;
+}
+#Up:hover {
+    background-color: #3c4cff;
+    transition: 0.3s;
+}
+
+/* Break */
+
+.middle {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.middle h2 {
+    color: rgb(80, 80, 80);
+}
+.explore {
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 150px;
+}
+.explore a {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 48px;
+    width: 220px;
+    border-radius: 6px;
+    background-color: darkblue;
+    text-decoration: none;
+    transition: 0.3s;
+    /* padding: 0.7em 1.5em; */
+    border: none;
+    color: #fff;
+    /* background: linear-gradient(to left, #ff715b 50%, #ff4c3c 50%); */
+    background-size: 200% 100%;
+    background-position: right bottom;
+}
+.explore a:hover {
+    background-position: left bottom;
+  }
+.explore a:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+.product2 a {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 48px;
+    width: 220px;
+    border-radius: 6px;
+    background-color: hsla(0, 0%, 100%, 0.05);
+    text-decoration: none;
+    transition: 0.3s;
+    /* padding: 0.7em 1.5em; */
+    border: none;
+    color: #fff;
+    background: linear-gradient(to left, hsla(0, 0%, 100%, 0.05) 50%, hsla(0, 0%, 40%, 0.05) 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+}
+.container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    top: 50px;
+    background-color: darkblue;
+  }
+  .container img {
+    width: 700px;
+    height: 500px;
+    object-fit: contain;
+    display: flex;
+  }
+  .mySlides {
+    display: none;
+  }
+  .cursor {
+    cursor: pointer;
+  }
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  .caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .column {
+    float: left;
+    width: 16.66%;
+  }
+  .demo {
+    opacity: 0.6;
+  }
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
