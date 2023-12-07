@@ -14,18 +14,24 @@
     <div class="loginForm">
         <img src="images/pfp.png" alt="">
         <label for="Name"></label>
-        <input type="text" name="" id="Name" placeholder="Enter name">
+        <input type="text" name="" id="Name" placeholder="Enter Name">
+        <div class="error-message" id="nameError"></div>
 
         <label for="Last-name"></label>
-        <input type="text" name="" id="Last-name" placeholder="Enter last name">
+        <input type="text" name="" id="Last-name" placeholder="Enter Last name">
+        <div class="error-message" id="Last-nameError"></div>
 
         <label for="Email"></label>
-        <input type="text" name="" id="Email" placeholder="Enter email">
+        <input type="text" name="" id="Email" placeholder="Enter Email">
+        <div class="error-message" id="EmailError"></div>
 
         <label for="Password"></label>
-        <input type="text" name="" id="Password" placeholder="Enter password">
+        <input type="password" name="" id="Password" placeholder="Enter Password">
+        <div class="error-message" id="passwordError"></div>
+
         <div class="buttons">
-            <button id="sign">Sign Up</button>
+            <button type="button"  id=" sign" onclick="validateForm()">Sign Up</button>
+    
         </div>
     </div>
     <script src="script.js"></script>
