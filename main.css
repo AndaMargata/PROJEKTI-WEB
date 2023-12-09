@@ -8,6 +8,7 @@ body {
     margin: 0px;
     padding: 0px;
     scroll-behavior: smooth;
+    /* overflow-x: hidden; */
 }
 nav {
     display: flex;
@@ -67,7 +68,12 @@ nav h2 {
     background-color: darkblue;
     text-decoration: none;
     transition: 0.3s;
+   
 }
+#up{
+ font-size: 32px;
+}
+
 #Up:hover {
     background-color: #3c4cff;
     transition: 0.3s;
@@ -138,8 +144,9 @@ nav h2 {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    top: 50px;
+    top: 50px;  
     background-color: darkblue;
+  
   }
   .container img {
     width: 700px;
@@ -399,4 +406,90 @@ nav h2 {
   transition: 0.3s;
   transform: scale(1.1);
   border-radius: 6px;
+}
+.footer {
+  display: flex;
+  color:white;
+  background-color: darkblue;
+  position: relative;
+  top: 70px;
+  height: 300px;
+  align-items: center;
+  width: 100%; 
+}
+.footer h1 {
+  font-size: 75px;
+  margin-left: 10px;
+}
+hr {
+  display: block;
+  width: 5px;
+  height: 300px;
+  background-color: white;
+  margin-left: 20px;
+}
+.about {
+  display: flex;
+  /* background-color: rebeccapurple; */
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-left: 30px;
+}
+.contact {
+  /* background-color: red; */
+  display: flex;
+}
+.telNr {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  margin: auto;
+  width: 100%;
+  align-items: center; 
+  /* background-color: red; */
+  height: 200px;
+  position: relative;
+  left: 50px;
+}
+.telNr h2 {
+  position: relative;
+  right: 100px;
+}
+.contactInfo {
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+  /* margin-left: 30px; */
+}
+.socials {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  /* flex-wrap: wrap; */
+  /* background-color:red; */
+}
+#lg{
+  display:flex;
+  margin-left: 20px;
+}
+.socials img {
+  margin: 20px;
+  width: 35px;
+  height: 35px; 
+}
+  #p1{
+  display: block;
+ /* margin: auto; */
+ /* position: relative;
+ left: 270px;
+ bottom: 12px; */
+ 
+}
+#about1{
+  display: block;
+  justify-content:center ;
+  /* position: relative;   */
+  /* left: 270px; */
 }

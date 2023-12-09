@@ -53,7 +53,7 @@ function validateForm() {
   PasswordError.innerText = '';
 
   if (!NameRegex.test(NameInput.value)) {
-    NameError.innerText = 'Invalid Name';
+    NameError.innerText = 'Name should start with Uppercase';
     return;
   }
   if (!LastnameRegex.test(LastnameInput.value)) {
